@@ -1,4 +1,4 @@
-package net.nocono.springbootdockersample;
+package net.nocono.dockercomposesample;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

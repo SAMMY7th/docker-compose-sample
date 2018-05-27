@@ -1,12 +1,12 @@
-package net.nocono.springbootdockersample;
+package net.nocono.dockercomposesample;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootDockerSampleApplication {
+public class DockerComposeSampleApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootDockerSampleApplication.class, args);
+		SpringApplication.run(DockerComposeSampleApplication.class, args);
 	}
 }

@@ -1,4 +1,4 @@
-package net.nocono.springbootdockersample;
+package net.nocono.dockercomposesample;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

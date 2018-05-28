@@ -21,13 +21,13 @@ public class UserController {
     }
 
     @PostMapping
-    void create(@ModelAttribute User user) {
-        userService.save(user);
+    User create(@ModelAttribute User user) {
+        return userService.save(user);
     }
 
     @PostMapping("{id}")
-    void update(@PathVariable Long id, @ModelAttribute User user) {
-        userService.save(user);
+    User update(@PathVariable Long id, @ModelAttribute User user) {
+        return userService.save(user);
     }
 
     @PostMapping("{id}/delete")

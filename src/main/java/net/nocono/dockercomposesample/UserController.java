@@ -27,6 +27,7 @@ public class UserController {
 
     @PostMapping("{id}")
     User update(@PathVariable Long id, @ModelAttribute User user) {
+        user.setId(id);
         return userService.save(user);
     }
 
